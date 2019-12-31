@@ -1,0 +1,6 @@
+<p> Items: new 2</p>
+<div *ngIf="!isLoading">
+    <ol *ngFor="let item of items; let index = index">
+    <li>{{item.name}} -  {{item.count}}</li>
+    </ol>
+</div>
